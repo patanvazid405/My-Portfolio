@@ -6,6 +6,7 @@
 }
 .navbar{
     display: flex;
+    position:fixed;
 }
 body{
     background-color: black;
@@ -131,5 +132,12 @@ h3{
 .icon{
     margin-top: 50px;
     margin-left: 230px;
+
+}
+
+@media only screen and (max-width:444px){
+    body{
+        background-color:none;
+    }
 
 }
